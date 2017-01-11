@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AngularBlog</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body ng-app="angularBlog">
+	<div class="container">
+
+	<nav>
+		<ul class="nav nav-tabs">
+		  <li><a href="#/" class="menu__link">Home</a></li>
+		  <li><a href="#/posts" class="menu__link">Posts</a></li>
+		</ul>
+	</nav>
+		
+		<ng-view></ng-view>
+	</div>
+</body>
+</html>

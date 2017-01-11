@@ -1,0 +1,14 @@
+body{
+	background-image: url(../img/AngularJS.jpg);
+	background-size: cover;
+	min-height: 320px;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+}
+
+.container{
+	background-color: rgba(255, 255, 255, 0.6);
+	min-height: 100vh;
+
+}
